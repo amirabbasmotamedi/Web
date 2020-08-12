@@ -1,12 +1,11 @@
 body{
-    font-family: 'Arial';
-    font-size: 20px;
-    color: #0D0D0D;
-    background-color: white;
+    font-family: 'Serif';
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 95%;
     max-height: max-content;
+    background-color: #333333;
+
 }
 
 .home{
@@ -30,7 +29,7 @@ h1{
     top:3%;
     margin-bottom: 4%;
     color: #FF4B33;
-    text-shadow: 1px 1px 5px rgba(255, 75, 51, 0.5);
+    text-shadow: 1px 1px 5px rgba(255, 75, 51, 1);
     display: flex;
     justify-content: center;
     text-transform: uppercase;
@@ -48,7 +47,7 @@ h1{
 .about{
     color: white;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     line-height:30px;
     position: relative;
     top: 5.5%;
@@ -62,14 +61,15 @@ h1{
     margin-right: 15px;
     text-decoration: none;
     color: #FF4B33 ;
-    margin-top: 8.3%;
+    margin-top: 7%;
+    margin-bottom: 0;
     transition: all 0.3s;
 }
 .social-media a:hover{
     font-size: 40px;
+    color: white ;
+   text-shadow: 1px 1px 5px rgba(255, 75, 51, 0.3);
 
-    color: #FF4B33 ;
-    margin-top: 8.3%;
 }
 
 /* responsive */
@@ -91,17 +91,21 @@ h1{
 
 @media only screen and (min-width: 950px) {
     .contact a {
-
         margin-top: 8.1%;
     }
 }
 /* footer */
+footer{
+    position: relative;
+    bottom: 50px;
+    padding :0;
+}
 .copyright{
     position: relative;
-    margin-top: 3%;
+    top: 25px;
     text-align: center;
     letter-spacing: 1px;
     font-size: 14px;
     color: #FF4B33;
-    text-shadow: 1px 1px 5px rgba(255, 75, 51, 0.5);
+
 }
